@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+</head>
+<body>
+    <main class="bg-[#ECEFFC]">
+        <nav class="flex items-center justify-between p-5 shadow-md bg-white sticky top-0">
+            <div class="flex items-center gap-2">
+                <i class="ri-copper-diamond-line text-[#003EC7] text-3xl" ></i>
+                <h1 class="text-[#003EC7] font-bold text-2xl">LUXE</h1>
+            </div>
+            <ul class="list-none flex space-x-8 hidden md:flex text-md">
+                <li class="hover:text-[#003EC7] transition-all duration-200 underline text-[#003EC7] font-bold"><a href="#">Home</a></li>
+                <li class="hover:text-[#003EC7] transition-all duration-200"><a href="#">About</a></li>
+                <li class="hover:text-[#003EC7] transition-all duration-200"><a href="#">Services</a></li>
+                <li class="hover:text-[#003EC7] transition-all duration-200"><a href="#">Features</a></li>
+                <li class="hover:text-[#003EC7] transition-all duration-200"><a href="#">Contact</a></li>
+            </ul>
+            <button class="bg-[#003EC7] transition-all duration-300 hover:-translate-y-[2px] cursor-pointer px-4 py-2 rounded-xl text-white">Get Started</button>
+        </nav>
+
+        <!-- Hero section -->
+         <section class="flex flex-col gap-8 items-center justify-center p-4  w-full">
+            <div class="flex flex-col gap-12 items-center justify-center p-4  w-full pb-[80px]">
+                <h3 class="text-[#003EC7] bg-[#E1E6FB] rounded-xl p-2">Digital Excellence</h3>
+            <h1 class="text-4xl md:text-6xl font-bold text-center">Precision Crafted <span class="text-[#003EC7]">Digital <br> Solutions</span></h1>
+            <p class="text-center text-[#434656] text-xl md:w-[60%]">Elevating brands through sophisticated design and high-performance technology. We build the future of luxury digital engagement.</p>
+            <div class="flex flex-col md:flex-row gap-4 justify-center w-full">
+                <button class="bg-[#003EC7] cursor-pointer hover:shadow-md text-white font-medium rounded-xl py-4 px-10">Start Project</button>
+                <button class="bg-[#E2E8F8] cursor-pointer hover:shadow-md text-black font-medium rounded-xl py-4 px-10">View Portfolio</button>
+            </div>
+            </div>
+
+            <div class="w-[80%]">
+                <img class="w-full md:h-[300px] object-cover rounded-xl" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBRZPm3snATf9OKob1VRwY_hnUKCuWZ-ZneuKVF6jX8buCmH1BKz4FlQ-IHM4jsdjgbNENEl4ssrMTBI97sz3AtmL1_CijyGFuMIWRf8ZGe_65HfV8KjeFBYt1xcr3ObU3gPkvAmf6Ov5X5jwNv2wMXLVco0ZNE8E314blGYqGLdpzthxeGja5nReqQr9VpLCR7QFnWm0gulkJG0E1vSFeajM_Un53ne6foBIBrSId3rhGtyiGkrCVM-uUWPSXiMQt3ddSLzVqXr9aV" alt="">
+            </div>
+         </section>
+
+         <!--  -->
+         <section class="p-4 pt-12 pb-12">
+            <div class="flex flex-col justify-center items-center gap-2">
+                <h1 class="font-medium text-3xl">The Standard of Excellence</h1>
+                <p class="text-md text-center">Our methodology combines artisanal design with engineering rigor.</p>
+            </div>
+            <div id="cards" class="mt-12 flex flex-col md:flex-row gap-4 overflow-auto">
+                <div class="w-[100%] md:w-[33%] py-8 group bg-[#FFFFFF] shadow-md rounded-2xl hover:shadow-2xl p-4 flex flex-col gap-4">
+                    <!-- <img class="w-[40px]" src="/folder-lock-line.png" alt=""> -->
+                    <i class="ri-folder-lock-line group-hover:text-[#003EC7] text-3xl"></i>
+                    <h2 class="text-3xl font-medium">Artisanal Design</h2>
+                    <p class="text-md">Bespoke visual identities that resonate with sophistication and modern luxury aesthetics</p>
+                </div>
+                <div class="w-[100%] md:w-[33%] py-8 group bg-[#FFFFFF] shadow-md rounded-2xl hover:shadow-2xl p-4 flex flex-col gap-4">
+                    <!-- <img class="w-[40px]" src="/folder-lock-line.png" alt=""> -->
+                    <i class="ri-folder-lock-line group-hover:text-[#003EC7] text-3xl"></i>
+                    <h2 class="text-3xl font-medium">Elite Performance</h2>
+                    <p class="text-md">Lightning-fast infrastructure optimized for seamless user journeys across all devices.</p>
+                </div>
+                <div class="w-[100%] md:w-[33%] py-8 group bg-[#FFFFFF] shadow-md rounded-2xl hover:shadow-2xl p-4 flex flex-col gap-4">
+                    <!-- <img class="w-[40px]" src="/folder-lock-line.png" alt=""> -->
+                    <i class="ri-folder-lock-line group-hover:text-[#003EC7] text-3xl"></i>
+                    <h2 class="text-3xl font-medium">Secure Scaling</h2>
+                    <p class="text-md">Enterprise-grade security protocols integrated into every layer of your digital ecosystem.</p>
+                </div>
+            </div>
+         </section>
+    </main>
+</body>
+</html>
